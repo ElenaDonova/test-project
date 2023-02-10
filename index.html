@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__wrapper">
+        <img class="logo" src="icons/DSK_logo.svg" alt="logo" />
+        <form action="">
+            <input
+          placeholder="Поиск по каталогу"
+          class="header__input"
+          type="text"
+        />
+        <button class="header__button">
+          <img src="icons/search.png" alt="search" class="header__search" />
+        </button>
+        </form>
+        <nav>
+          <img class="header__menu" src="icons/menu_open.png" alt="menu" />
+        </nav>
+      </div>
+    </header>
+
+    <div class="navigation__bread-crams">
+      <ul>
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <a href="#">Каталог товаров</a>
+        </li>
+        <li><a href="#">Частное домостроение</a></li>
+        <li><a href="#">Плиты перекрытия</a></li>
+        <li><a href="#">Плиты ПК</a></li>
+        <li><a href="#">Пк 63-12-8</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <div class="product__name">
+        <h1 class="product__title">Пк 63-12-8</h1>
+        <div class="stars">
+          <img class="star" src="icons/Vector.png" alt="" />
+          <img class="star" src="icons/Vector.png" alt="" />
+          <img class="star" src="icons/Vector.png" alt="" />
+          <img class="star" src="icons/Vector_(1).png" alt="" />
+          <img class="star" src="icons/Vector_(2).png" alt="" />
+        </div>
+      </div>
+
+      <div class="product__stats">
+        <p class="product__item">Все о товаре</p>
+        <p class="product__item">Характеристики</p>
+        <p class="product__item">Обзор</p>
+      </div>
+
+      <img class="product__image" src="icons/img.png" alt="" />
+      <div class="product__characteristics">
+        <h3>Характеристики</h3>
+        <p>Наименование: <span>Плиты ПК</span></p>
+        <p>Завод-производитель: <span>Москва и МО</span></p>
+        <p>Технические условия: <span>ГОСТ 9561-91</span></p>
+        <p>Длина, мм: <span>6300</span></p>
+        <p>Ширина, мм: <span>1200</span></p>
+        <p>Высота, мм: <span>220</span></p>
+        <p>Расчетная накрузка, кг/м&sup2;: <span>800</span></p>
+        <p>Вес 1 шт., т: <span>1,755</span></p>
+      </div>
+
+      <div class="product__card">
+        <h3 class="product__piece-price">484,00 &#8381;/шт</h3>
+        <h4 class="product__meter-price">154,88 &#8381;/м&sup2;</h4>
+        <p class="product__article">Артикул: <span>0543600</span></p>
+
+        <div class="product__buttons">
+          <div class="amount">
+            <button class="amount__minus">
+              <img src="icons/minus.png" alt="" />
+            </button>
+            <p class="amount__amount">10 шт.</p>
+            <button class="amount__plus">
+              <img src="icons/Plus.png" alt="" />
+            </button>
+          </div>
+
+          <button class="cart">
+            <img src="icons/shopping_cart.png" alt="" /> В корзину
+          </button>
+
+          <button class="favourite">
+            <img src="icons/favorite_border.png" alt="" /> В избранное
+          </button>
+
+          <button class="call">
+            <img src="icons/phone_in_talk.png" alt="" /> Позвонить
+          </button>
+        </div>
+        <div class="contact">
+          <p>Также для вашего удобства мы доступны в мессенджерах</p>
+          <div class="contact__icons">
+              <img src="icons/WhatsApp.png" alt="" />
+              <img src="icons/Viber.png" alt="" />
+              <img src="icons/Telegram.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
