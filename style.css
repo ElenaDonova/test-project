@@ -280,6 +280,11 @@ main {
   margin-right: 5px;
   background-color: rgb(246, 246, 246);
 }
+
+.amount__minus img {
+    margin-bottom: 3px;
+}
+
 .amount__plus {
   background-color: rgb(0, 90, 162);
 }
